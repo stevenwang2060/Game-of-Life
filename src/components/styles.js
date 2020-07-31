@@ -87,7 +87,7 @@ export const Button = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: ${theme.colors.black};
+    color: ${theme.colors.white};
     border: 1px solid ${theme.colors.black};
     user-select: none;
     &:hover{
