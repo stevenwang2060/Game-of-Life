@@ -77,7 +77,7 @@ export const Menu = styled.div`
 
 export const Button = styled.div`
     background-color: ${props => props.run ? 
-        (props.start ? theme.colors.lightRed : theme.colors.lightGreen) 
+        (props.start ? theme.colors.red : theme.colors.green) 
         : theme.colors.white};
     font-family: ${theme.font};
     font-size: ${theme.fontSize.text};
@@ -87,7 +87,7 @@ export const Button = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: ${theme.colors.black};
+    color: ${theme.colors.white};
     border: 1px solid ${theme.colors.black};
     user-select: none;
     &:hover{
