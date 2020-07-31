@@ -77,7 +77,7 @@ export const Menu = styled.div`
 
 export const Button = styled.div`
     background-color: ${props => props.run ? 
-        (props.start ? theme.colors.lightRed : theme.colors.lightGreen) 
+        (props.start ? theme.colors.red : theme.colors.green) 
         : theme.colors.white};
     font-family: ${theme.font};
     font-size: ${theme.fontSize.text};
