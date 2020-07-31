@@ -1,6 +1,6 @@
 # Conway's Game of Life
 
-[Website]()
+[Website](https://game-of-life-theta-eight.vercel.app/)
 
 This web application lets you try out the cellular automaton devised by John Conway made in 1970. This game have no players as it requires no more user input once the inital state is loaded. 
 
